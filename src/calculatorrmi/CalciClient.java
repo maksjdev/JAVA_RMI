@@ -11,7 +11,7 @@ public class CalciClient {
     public static void main(String[] args)throws NotBoundException,MalformedURLException,RemoteException{
         Scanner sc = new Scanner(System.in);
             try {
-
+                System.out.println("TEST");
                 CalculatorInterface c = (CalculatorInterface) Naming.lookup("rmi://localhost:1099/Calculator");
                 System.out.println("Client is connected to server");
 
